@@ -3,13 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Ranoji/Documents/NetBeansProjects/StudentMgmtX/src/StudentMgmt/Controller/CourseDetailsViewController.java</file>
-            <file>file:/C:/Users/Ranoji/Documents/NetBeansProjects/StudentMgmtX/src/StudentMgmt/Controller/CourseDetailsStViewController.java</file>
-            <file>file:/C:/Users/Ranoji/Documents/NetBeansProjects/StudentMgmtX/src/StudentMgmt/view/LoginViewController.java</file>
-            <file>file:/C:/Users/Ranoji/Documents/NetBeansProjects/StudentMgmtX/src/StudentMgmt/view/LoginView.fxml</file>
-            <file>file:/C:/Users/Ranoji/Documents/NetBeansProjects/StudentMgmtX/src/StudentMgmt/view/CourseDetailsView.fxml</file>
-            <file>file:/C:/Users/Ranoji/Documents/NetBeansProjects/StudentMgmtX/src/StudentMgmt/view/HomeViewController.java</file>
-            <file>file:/C:/Users/Ranoji/Documents/NetBeansProjects/StudentMgmtX/src/StudentMgmt/Controller/StudentRecordStViewController.java</file>
+            <file>file:/C:/Users/Ranoji/Documents/NetBeansProjects/StudentMgmtX/src/StudentMgmt/Controller/AdminViewController.java</file>
+            <file>file:/C:/Users/Ranoji/Documents/NetBeansProjects/StudentMgmtX/src/StudentMgmt/Controller/LoginViewController.java</file>
             <file>file:/C:/Users/Ranoji/Documents/NetBeansProjects/StudentMgmtX/src/StudentMgmt/NewFXMain.java</file>
         </group>
     </open-files>

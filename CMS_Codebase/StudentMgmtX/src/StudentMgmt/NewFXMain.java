@@ -16,7 +16,7 @@ import javafx.stage.Stage;
 public class NewFXMain extends Application {
     
     private Stage primaryStage;
-    private AnchorPane homeLayout;
+    private AnchorPane adminLayout;
     private AnchorPane loginLayout;
      FXMLLoader loader=new FXMLLoader();
      Scene scene;
@@ -35,9 +35,9 @@ public class NewFXMain extends Application {
     public void showMainView() throws IOException
     {
         Stage newStage=new Stage();
-        loader.setLocation(NewFXMain.class.getResource("view/HomeView.fxml"));
-        homeLayout=loader.load();
-        scene=new Scene(homeLayout);
+        loader.setLocation(NewFXMain.class.getResource("view/AdminView.fxml"));
+        adminLayout=loader.load();
+        scene=new Scene(adminLayout);
         newStage.setScene(scene);
         newStage.show();
     }

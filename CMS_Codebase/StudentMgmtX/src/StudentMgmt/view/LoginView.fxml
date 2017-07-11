@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="283.0" prefWidth="423.0" style="-fx-background-color: #5dc9fc;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StudentMgmt.view.LoginViewController">
+<AnchorPane id="AnchorPane" prefHeight="283.0" prefWidth="423.0" style="-fx-background-color: #5dc9fc;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StudentMgmt.Controller.LoginViewController">
    <children>
       <TextField fx:id="textFieldUN" layoutX="205.0" layoutY="78.0" promptText="User Name" style="-fx-background-color: #a08299;">
          <font>

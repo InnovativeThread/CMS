@@ -3,9 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package StudentMgmt.view;
+package StudentMgmt.Controller;
 
 import StudentMgmt.NewFXMain;
+import java.awt.event.MouseEvent;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -32,7 +33,7 @@ public class LoginViewController implements Initializable {
         {
             labelStatus.setText("Valid User");
             NewFXMain nm=new NewFXMain();
-            nm.showMainView();
+        nm.showMainView();
                
         }
         else
@@ -41,6 +42,8 @@ public class LoginViewController implements Initializable {
         }
         
     }
+    
+    
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
