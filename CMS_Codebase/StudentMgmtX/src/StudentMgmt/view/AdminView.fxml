@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="678.0" prefWidth="988.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StudentMgmt.Controller.AdminViewController">
+   <children>
+      <ImageView fitHeight="769.0" fitWidth="988.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Images/AmazingBack.jpg" />
+         </image>
+      </ImageView>
+      <BorderPane prefHeight="678.0" prefWidth="988.0" style="-fx-background-image: AmazingBack;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <ImageView fitHeight="150.0" fitWidth="365.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../../Images/buddypress_logo.png" />
+               </image>
+            </ImageView>
+         </top>
+         <center>
+            <GridPane prefWidth="862.0" BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="btn1" mnemonicParsing="false" text="Add Attaindeance" />
+                  <Button mnemonicParsing="false" text="Add Payment" GridPane.columnIndex="1" />
+               </children>
+            </GridPane>
+         </center>
+         <left>
+            <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #8494a8;" BorderPane.alignment="CENTER">
+               <children>
+                  <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #0d1623;" text="Student" textFill="#f2f5f9">
+                     <graphic>
+                        <ImageView fitHeight="90.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../Images/StudentIcon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="11.0" fitWidth="196.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Images/btnBreak.png" />
+                     </image>
+                  </ImageView>
+                  <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #0d1623;" text="Faculty" textFill="#f2f5f9">
+                     <graphic>
+                        <ImageView fitHeight="90.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../Images/TeacherIcon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="11.0" fitWidth="196.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Images/btnBreak.png" />
+                     </image>
+                  </ImageView>
+                  <Button contentDisplay="TOP" graphicTextGap="2.0" mnemonicParsing="false" prefHeight="112.0" prefWidth="112.0" style="-fx-background-color: #0d1623;" text="Batch" textFill="#f2f5f9">
+                     <graphic>
+                        <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../Images/batch.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets bottom="4.0" top="4.0" />
+                     </opaqueInsets>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="11.0" fitWidth="196.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Images/btnBreak.png" />
+                     </image>
+                  </ImageView>
+                  <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Course">
+                     <graphic>
+                        <ImageView fitHeight="80.0" fitWidth="88.0" pickOnBounds="true" preserveRatio="true" />
+                     </graphic>
+                  </Button>
+                  <ImageView fitHeight="11.0" fitWidth="196.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Images/btnBreak.png" />
+                     </image>
+                  </ImageView>
+                  <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Payment">
+                     <graphic>
+                        <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" />
+                     </graphic>
+                  </Button>
+               </children>
+               <opaqueInsets>
+                  <Insets bottom="4.0" top="4.0" />
+               </opaqueInsets>
+            </VBox>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>
