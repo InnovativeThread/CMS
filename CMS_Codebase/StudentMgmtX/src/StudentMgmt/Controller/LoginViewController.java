@@ -33,7 +33,7 @@ public class LoginViewController implements Initializable {
         {
             labelStatus.setText("Valid User");
             NewFXMain nm=new NewFXMain();
-        nm.showMainView();
+           nm.showMainView();
                
         }
         else
