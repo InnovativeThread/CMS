@@ -14,15 +14,15 @@ import java.sql.Timestamp;
 public class StudentAttributes {
 
 	
-	private String ID;							//CHAR(36),
-	private StudentDetails Student;						//CHAR(36),
-	private CourseDetails Course;						//CHAR(36),
-	private FacultyDetails Faculty;						//CHAR(36),
-	private BatchDetails Batch;						//CHAR(36),
+	private String ID;					//CHAR(36),
+	private StudentDetails Student;				//CHAR(36),
+	private CourseDetails Course;				//CHAR(36),
+	private FacultyDetails Faculty;				//CHAR(36),
+	private BatchDetails Batch;				//CHAR(36),
 	private int TotalFees;					//INT,
 	private int PaidFees;					//INT,
 	private int RemaningFees;				//INT,
-	private CenterDetails Center;						//CHAR(36),
+	private CenterDetails Center;				//CHAR(36),
 	private Status StudentStatus;				//INT,
 	private Timestamp RecordCreateTIMESTAMP;		//TIMESTAMP,
 	private Timestamp RecordModifiedTIMESTAMP;		//TIMESTAMP

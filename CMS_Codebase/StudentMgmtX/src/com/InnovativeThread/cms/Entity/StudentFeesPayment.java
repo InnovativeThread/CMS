@@ -15,14 +15,14 @@ public class StudentFeesPayment {
 	private int ID;							//INT,
 	private String UniqueID;					//CHAR(36),
 	private Timestamp PaymentDate;					//TIMESTAMP,
-	private StudentDetails student;						//Student Object cause foreign key
-	private PaymentMode paymentMode;					//PaymentMode object
+	private StudentDetails student;					//Student Object cause foreign key
+	private PaymentMode paymentMode;				//PaymentMode object
 	private int IsFull;						//NUMBER(1),
-	private int IsPartial;					//NUMBER(1),
-	private int IsNonPaid;					//NUMBER(1),
+	private int IsPartial;                                          //NUMBER(1),
+	private int IsNonPaid;                                          //NUMBER(1),
 	private String UpdatedBy;					//CHAR(36),
-	private Timestamp RecordCreateTIMESTAMP;		//TIMESTAMP,
-	private Timestamp RecordModifiedTIMESTAMP;		//TIMESTAMP
+	private Timestamp RecordCreateTIMESTAMP;                        //TIMESTAMP,
+	private Timestamp RecordModifiedTIMESTAMP;                      //TIMESTAMP
 	
 	public StudentFeesPayment() {
 		super();

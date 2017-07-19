@@ -16,14 +16,14 @@ public class BatchDetails {
 	private int ID;							//INT,
 	private String UniqueID;					//CHAR(36),
 	private String Name;						//NCHAR(100),
-	private CourseDetails Course;						//Course object
+	private CourseDetails Course;					//Course object
 	private String Timing;						//NCHAR(50),
-	private int BatctchStrength;				//INT,
+	private int BatctchStrength;                                    //INT,
 	private Timestamp StartDate;					//DATE,
-	private Timestamp EndDate;						//DATE,
+	private Timestamp EndDate;					//DATE,
 	private Timestamp CenterID;					//INT,
-	private Timestamp RecordCreateTIMESTAMP;		//TIMESTAMP,
-	private Timestamp RecordModifiedTIMESTAMP;		//TIMESTAMP
+	private Timestamp RecordCreateTIMESTAMP;                        //TIMESTAMP,
+	private Timestamp RecordModifiedTIMESTAMP;                      //TIMESTAMP
 	
 	public BatchDetails() {
 		super();

@@ -13,8 +13,8 @@ import java.sql.Timestamp;
  */
 public class PaymentMode {
 	
-	private String ID;							//CHAR(36),
-	private String PaymentType;					//CHAR(50),
+	private String ID;					//CHAR(36),
+	private String PaymentType;				//CHAR(50),
 	private Timestamp RecordCreateTIMESTAMP;		//TIMESTAMP,
 	private Timestamp RecordModifiedTIMESTAMP;		//TIMESTAMP
 	

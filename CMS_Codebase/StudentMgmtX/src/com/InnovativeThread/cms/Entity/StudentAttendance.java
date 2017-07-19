@@ -13,16 +13,16 @@ import java.sql.Timestamp;
  */
 public class StudentAttendance {
 	
-	private int ID;							//INT,
-	private String UniqueID;					//CHAR(36),
-	private Timestamp Date;						//DATE,
-	private StudentDetails Student;						//CHAR(36),
-	private FacultyDetails Faculty;						//CHAR(36),
-	private BatchDetails Batch;						//CHAR(36),
-	private CourseDetails Course;						//CHAR(36),
+	private int ID;						//INT,
+	private String UniqueID;				//CHAR(36),
+	private Timestamp Date;                 		//DATE,
+	private StudentDetails Student;				//CHAR(36),
+	private FacultyDetails Faculty;				//CHAR(36),
+	private BatchDetails Batch;				//CHAR(36),
+	private CourseDetails Course;				//CHAR(36),
 	private int IsPresent;					//NUMBER(1),
 	private int IsAbsent;					//NUMBER(1),
-	private String UpdatedBy;					//CHAR(36),
+	private String UpdatedBy;				//CHAR(36),
 	private Timestamp RecordCreateTIMESTAMP;		//TIMESTAMP,
 	private Timestamp RecordModifiedTIMESTAMP;		//TIMESTAMP
 	
