@@ -15,7 +15,7 @@ public class RelationType {
 	
 	private int ID;							//INT,
 	private String Type;						//CHAR(20),
-	private Timestamp RecordCreateTIMESTAMP;		//TIMESTAMP
+	private Timestamp RecordCreateTIMESTAMP;                        //TIMESTAMP
 	
 	public RelationType() {
 		super();

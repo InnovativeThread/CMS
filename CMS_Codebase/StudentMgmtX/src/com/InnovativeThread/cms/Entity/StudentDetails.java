@@ -19,15 +19,15 @@ public class StudentDetails {
 	private String FirstName;					//CHAR(50),
 	private String MiddleName;					//CHAR(50),
 	private String LastName;					//CHAR(50),
-	private int MobileNumber;				//NUMBER(12),
+	private int MobileNumber;                                       //NUMBER(12),
 	private String Email;						//NCHAR(50),
-	private int Gender;						//INT,
+	private String Gender;						//INT,
 	private String BloodGroup;					//NCHAR(15),
 	private String Address;						//CHAR(36),
 	private Timestamp DateOfBirth;					//DATE,
-	private String Qualification;				//CHAR(100),
-	private Timestamp RecordCreateTIMESTAMP;		//TIMESTAMP,
-	private Timestamp RecordModifiedTIMESTAMP;		//TIMESTAMP
+	private String Qualification;                                   //CHAR(100),
+	private Timestamp RecordCreateTIMESTAMP;                        //TIMESTAMP,
+	private Timestamp RecordModifiedTIMESTAMP;                      //TIMESTAMP
 	public int getID() {
 		return ID;
 	}
@@ -70,10 +70,10 @@ public class StudentDetails {
 	public void setEmail(String email) {
 		Email = email;
 	}
-	public int getGender() {
+	public String getGender() {
 		return Gender;
 	}
-	public void setGender(int gender) {
+	public void setGender(String gender) {
 		Gender = gender;
 	}
 	public String getBloodGroup() {

@@ -13,14 +13,14 @@ import java.sql.Timestamp;
  */
 public class EntityContactDetails {
 	
-	private String ID;							//CHAR(36),
-	private String Forename;					//CHAR(50),
-	private String Surname;						//CHAR(50),
+	private String ID;					//CHAR(36),
+	private String Forename;				//CHAR(50),
+	private String Surname;					//CHAR(50),
 	private int ContactNumber;				//NUMBER(12),
-	private String Email;						//NCHAR(50),
-	private EntityAddressDetails Address;						//CHAR(36),
+	private String Email;					//NCHAR(50),
+	private EntityAddressDetails Address;			//CHAR(36),
 	private EntityType RelatedEntityType;			//INT,
-	private RelationType RelationType;				//INT,
+	private RelationType RelationType;                      //INT,
 	private String RelatedEntityID;				//CHAR(36),
 	private Timestamp RecordCreateTIMESTAMP;		//TIMESTAMP,
 	private Timestamp RecordModifiedTIMESTAMP;		//TIMESTAMP

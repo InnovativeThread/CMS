@@ -13,19 +13,19 @@ import java.sql.Timestamp;
  */
 public class EntityAddressDetails {
 	
-	private String ID;							//CHAR(36),
-	private int EntityType;					//INT,
+	private String ID;						//CHAR(36),
+	private int EntityType;                                         //INT,
 	private int HouseNumber;					//INT,
 	private String HouseName;					//CHAR(100),
-	private int SurveyNo;					//INT,
+	private int SurveyNo;                                           //INT,
 	private String Street;						//CHAR(100),
 	private String City;						//CHAR(100),
 	private String District;					//CHAR(100),
 	private String State;						//CHAR(100),
 	private String Country;						//CHAR(100),
-	private int PIN;							//INT,
-	private Timestamp RecordCreateTIMESTAMP;		//TIMESTAMP,
-	private Timestamp RecordModifiedTIMESTAMP;		//TIMESTAMP
+	private int PIN;						//INT,
+	private Timestamp RecordCreateTIMESTAMP;                        //TIMESTAMP,
+	private Timestamp RecordModifiedTIMESTAMP;                      //TIMESTAMP
 		
 	public EntityAddressDetails() {
 		super();

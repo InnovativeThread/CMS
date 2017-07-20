@@ -13,11 +13,11 @@ import java.sql.Timestamp;
  */
 public class ClassEnquiry {
 	
-	private String ID;							//CHAR(36),
-	private String Forename;					//CHAR(50),
-	private String Surname;						//CHAR(50),
+	private String ID;					//CHAR(36),
+	private String Forename;				//CHAR(50),
+	private String Surname;					//CHAR(50),
 	private int ContactNumber;				//NUMBER(12),
-	private String Email;						//NCHAR(100),
+	private String Email;					//NCHAR(100),
 	private String EnquiredForWhom;				//NCHAR(100),
 	private String EnquiredForWhat;				//NCHAR(100),
 	private Timestamp RecordCreateTIMESTAMP;		//TIMESTAMP

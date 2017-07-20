@@ -16,18 +16,18 @@ public class FacultyDetails {
 	private int ID;							//INT,
 	private String UniqueID;					//CHAR(36),
 	private String FirstName;					//CHAR(50),
-	private String MiddleName;				//	CHAR(50),
+	private String MiddleName;                                      //CHAR(50),
 	private String LastName;					//CHAR(50),
-	private int MobileNumber;				//NUMBER(12),
+	private int MobileNumber;                                       //NUMBER(12),
 	private String Email;						//NCHAR(50),
-	private int Gender;					//	INT,
+	private int Gender;                                             //INT,
 	private String BloodGroup;					//NCHAR(15),
-	private EntityAddressDetails Address;				//		CHAR(36),
-	private Timestamp DateOfBirth;				//	DATE,
-	private String Qualification;				//CHAR(100),
-	private String Specialization;		//		CHAR(50),
-	private Timestamp RecordCreateTIMESTAMP;		//TIMESTAMP,
-	private Timestamp RecordModifiedTIMESTAMP;		//TIMESTAMP
+	private EntityAddressDetails Address;				//CHAR(36),
+	private Timestamp DateOfBirth;                                  //DATE,
+	private String Qualification;                                   //CHAR(100),
+	private String Specialization;                                  //CHAR(50),
+	private Timestamp RecordCreateTIMESTAMP;                        //TIMESTAMP,
+	private Timestamp RecordModifiedTIMESTAMP;                      //TIMESTAMP
 	public FacultyDetails() {
 		super();
 	}
