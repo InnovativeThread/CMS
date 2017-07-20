@@ -5,9 +5,12 @@
  */
 package com.InnovativeThread.cms.dao;
 
+import com.InnovativeThread.cms.Connection.DBConnection;
 import com.InnovativeThread.cms.Entity.BatchDetails;
 import com.InnovativeThread.cms.Entity.CourseDetails;
 import com.InnovativeThread.cms.Entity.StudentDetails;
+import java.sql.Connection;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -15,40 +18,47 @@ import java.util.List;
  * @author MOHIT
  */
 public class StudentDAOImpl implements IStudent{
+    private DBConnection dbc;
+    private Connection con;
+    
+    public StudentDAOImpl() {
+        dbc=new DBConnection();
+        con=dbc.getConnection();
+    }    
 
     @Override
     public void addStudentDetails(StudentDetails sd) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
     }
 
     @Override
     public void updateStudentDetails(StudentDetails sd) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
     }
 
     @Override
     public void deleteStudenttDetails(int roll_no) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
     }
 
     @Override
     public StudentDetails getStudentDetails(int roll_no) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return new StudentDetails();
     }
 
     @Override
     public List<StudentDetails> fetchStudentDetailsCourseWise(CourseDetails c) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return new ArrayList<StudentDetails>();
     }
 
     @Override
     public List<StudentDetails> fetchStudentDetailsBatchWise(BatchDetails b) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return new ArrayList<StudentDetails>();
     }
 
     @Override
     public List<StudentDetails> fetchAllStudentDetails() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return new ArrayList<StudentDetails>();
     }
     
 }
