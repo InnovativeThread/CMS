@@ -19,16 +19,17 @@ public class StudentDetails {
 	private String FirstName;					//CHAR(50),
 	private String MiddleName;					//CHAR(50),
 	private String LastName;					//CHAR(50),
-	private int MobileNumber;                                       //NUMBER(12),
+	private long MobileNumber;                                       //NUMBER(12),
 	private String Email;						//NCHAR(50),
 	private String Gender;						//INT,
 	private String BloodGroup;					//NCHAR(15),
-	private String Address;						//CHAR(36),
+	private EntityAddressDetails Address;						//CHAR(36),
 	private Timestamp DateOfBirth;					//DATE,
 	private String Qualification;                                   //CHAR(100),
 	private Timestamp RecordCreateTIMESTAMP;                        //TIMESTAMP,
 	private Timestamp RecordModifiedTIMESTAMP;                      //TIMESTAMP
-	public int getID() {
+	
+        public int getID() {
 		return ID;
 	}
 	public void setID(int iD) {
@@ -58,10 +59,10 @@ public class StudentDetails {
 	public void setLastName(String lastName) {
 		LastName = lastName;
 	}
-	public int getMobileNumber() {
+	public long getMobileNumber() {
 		return MobileNumber;
 	}
-	public void setMobileNumber(int mobileNumber) {
+	public void setMobileNumber(long mobileNumber) {
 		MobileNumber = mobileNumber;
 	}
 	public String getEmail() {
@@ -82,10 +83,10 @@ public class StudentDetails {
 	public void setBloodGroup(String bloodGroup) {
 		BloodGroup = bloodGroup;
 	}
-	public String getAddress() {
+	public EntityAddressDetails getAddress() {
 		return Address;
 	}
-	public void setAddress(String address) {
+	public void setAddress(EntityAddressDetails address) {
 		Address = address;
 	}
 	public Timestamp getDateOfBirth() {
